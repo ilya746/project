@@ -59,13 +59,13 @@
 
 > https://docs.google.com/spreadsheets/d/tableIdValue/edit#gid=0
  
- где tableIdValue - ID таблицы
+ где sheetId - ID таблицы
  
 указывается между тегами
 
 ```
 <appSettings>
-<add key="SheetID" value='tableIdValue'/>
+<add key="SheetID" value='sheetId'/>
 </appSettings>
 ```
 
@@ -73,7 +73,7 @@
 
 ```
 <appSettings>
-<add key="SheetID" value="1Zr4eMVwSUPpZz6Ts2UTiUZV1Lh2Ha0SRZqhHlnKPbF8" />
+<add key="SheetID" value="1Zr4eMVwSUPpZUZLh2Ha0SRZqhHlnKPbF8" />
 </appSettings>
 ``` 
 
@@ -86,9 +86,9 @@
 </connectionStrings>
 
 <appSettings>
-<add key="SheetID" value="1Zr4eMVwSUPpZz6Ts2UTiUZV1Lh2Ha0SRZqhHlnKPbF8" />
+<add key="SheetID" value="1Zr4eMVwSUPpZz6Ts1Lh2Ha0SRZqhHlnKPbF8" />
 <add key="serverSize" value="3" />
-add key="credentials" value='{"installed":{"client_id":"766086565348-p2n1fk5q041tgfvqak5tgschsvkn7a2c.apps.googleusercontent.com","project_id":"quickstart-1585666415280","auth_uri":"https://accounts.google.com/o/oauth2/auth","token_uri":"https://oauth2.googleapis.com/token","auth_provider_x509_cert_url":"https://www.googleapis.com/oauth2/v1/certs","client_secret":"M5wm08jwi3BX3ZFWjb29ZdAM","redirect_uris":["urn:ietf:wg:oauth:2.0:oob","http://localhost"]}}'/>
+add key="credentials" value='{"installed":{"client_id":"766086565348-p2n1fk5qak5tgschsvkn7a2c.apps.googleusercontent.com","project_id":"quickstart-1585666415280","auth_uri":"https://accounts.google.com/o/oauth2/auth","token_uri":"https://oauth2.googleapis.com/token","auth_provider_x509_cert_url":"https://www.googleapis.com/oauth2/v1/certs","client_secret":"M5wm083ZFWjb29ZdAM","redirect_uris":["urn:ietf:wg:oauth:2.0:oob","http://localhost"]}}'/>
 </appSettings>
 
 ``` 
